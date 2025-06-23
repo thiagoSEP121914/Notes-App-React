@@ -1,55 +1,25 @@
-Notas React App
-Descrição
-Este é um aplicativo simples de notas criado com React. Ele permite que você adicione notas com título e conteúdo, visualize todas as notas criadas e delete qualquer nota desejada.
+# Notas React App
 
-O app é construído com componentes funcionais, utilizando hooks (useState) para gerenciar o estado da lista de notas.
+![Preview do App](public/assets/image.png)
 
-Funcionalidades
-Adicionar novas notas com título e conteúdo.
+## Descrição
 
-Visualizar as notas criadas em cards dinâmicos.
+Aplicativo simples de notas feito em React. Você pode criar notas com título e conteúdo, visualizar todas as notas e apagar as que quiser.
 
-Deletar notas específicas clicando no card correspondente.
+Construído com componentes funcionais e React Hooks (`useState`) para gerenciar o estado das notas.
 
-Estado gerenciado com React hooks.
+## Funcionalidades
 
-Componentização clara com Header, InputBox e Card.
+- Adicionar notas com título e conteúdo.
+- Exibir as notas em cards dinâmicos.
+- Deletar notas clicando no card.
+- Uso de React Hooks para controle do estado.
+- Componentes separados: Header, InputBox e Card.
 
-Como usar
-Clone este repositório:
+## Como usar
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-Entre na pasta do projeto:
-
-bash
-Copiar
-Editar
 cd seu-repositorio
-Instale as dependências:
-
-bash
-Copiar
-Editar
 npm install
-Rode o projeto:
-
-bash
-Copiar
-Editar
 npm start
-Abra o navegador no endereço http://localhost:3000 para usar o app.
-
-Estrutura do projeto
-App.jsx: Componente principal que gerencia o estado das notas.
-
-components/Header.jsx: Cabeçalho do app.
-
-components/InputBox.jsx: Formulário para adicionar novas notas.
-
-components/Card.jsx: Exibe cada nota criada em um cartão.
-
-Imagem de referência
-![Descrição da imagem](./public/assets/image.png)
