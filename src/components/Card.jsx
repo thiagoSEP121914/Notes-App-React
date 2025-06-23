@@ -1,4 +1,5 @@
 import "../style/card.css"
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Card(props) {
     return (
@@ -7,7 +8,9 @@ function Card(props) {
             <p>{props.content}</p>
             <button onClick={() => {
                 props.onDelete(props.id);
-            }}>delete</button>
+            }}>
+                <DeleteIcon/>
+            </button>
         </div>
     );
 }

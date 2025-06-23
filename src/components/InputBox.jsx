@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../style/inputBox.css"
+import AddIcon from '@mui/icons-material/Add';
 
 function InputBox(props) {
 
@@ -39,7 +40,9 @@ function InputBox(props) {
             onChange={noteHandler}
             value={note.content}
         />
-        <button onClick={submitHandler}>+</button>
+        <button onClick={submitHandler}>
+            <AddIcon/>
+        </button>
     </form>
     );
 }
