@@ -1,6 +1,6 @@
 # Notas React App
 
-##preview
+# preview
 ![Notes-App-React](public/image.png) 
 
 ## Descrição
