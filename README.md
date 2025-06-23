@@ -1,7 +1,7 @@
 # Notas React App
 
 # preview📷
-![Notes-App-React](public/assets/image.png) 
+![Notes-App-React](public/assets/image.png)
 
 ## Descrição
 
